@@ -1,5 +1,10 @@
 theme: jekyll-theme-cayman
 title: ICMESH Project
 description: 🌄🔒 Off-Grid, Secure Text Messaging for the Canyons of Orange County, CA 📡💬.  Use PRESET Medium-Slow to join the network.
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: auto # or auto if you want it to switch with your system settings.
 github:
   is_project_page: false
